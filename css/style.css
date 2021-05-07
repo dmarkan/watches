@@ -1,0 +1,404 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #E1DDDB;
+}
+
+header {
+    position: relative;
+    margin: auto;
+}
+
+header img {
+    width: 18%;
+    padding: 1% 5%;
+    position: absolute;
+}
+
+header h1 {
+    display: inline;
+    position: absolute;
+    padding: 4% 15%;
+    font-size: 3em;
+    color: #0C4A60;
+}
+
+nav ul {
+    display: inline;
+    position: absolute;
+    padding: 5% 35%;
+    width: 100%;
+}
+
+nav li,
+h2,
+.sign li {
+    display: inline;
+    padding: 2%;
+}
+
+nav a,
+.sign a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #0C4A60;
+    position: relative;
+    z-index: 1;
+}
+
+.sign {
+    margin: 5% 80%;
+    width: 15%;
+    position: absolute;
+}
+
+a:hover,
+button:hover,
+.dugme:hover {
+    color: #EF6C33;
+    transition: 0.3s all;
+}
+
+main {
+    position: relative;
+}
+
+main img {
+    width: 100%;
+    padding-top: 10%;
+}
+
+main h1 {
+    color: #E1DDDB;
+    position: absolute;
+    top: 0;
+    padding: 18% 7%;
+    font-size: 3em;
+    width: 35%;
+}
+
+main p {
+    color: #E1DDDB;
+    font-style: italic;
+    position: absolute;
+    top: 0;
+    padding: 31% 7%;
+    font-size: 1.5em;
+}
+
+main button {
+    background-color: #0C4A60;
+    color: #E1DDDB;
+    padding: 1% 2%;
+    font-size: 1em;
+    border-radius: 5%;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 35% 7%;
+    z-index: 1;
+}
+
+main a {
+    color: #E1DDDB;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+main h3 {
+    color: #0C4A60;
+    text-align: center;
+    padding-top: 2%;
+}
+
+main :nth-child(6) {
+    color: #0C4A60;
+    text-align: center;
+    position: absolute;
+    padding-top: 60%;
+    width: 100%;
+}
+
+main table {
+    width: 100%;
+    position: absolute;
+    padding-top: 6%;
+}
+
+main table tr {
+    width: 100%;
+}
+
+main table td {
+    height: 20em;
+    width: 50%;
+}
+
+main table img {
+    width: 30%;
+    height: 100%;
+    margin-left: 10%;
+}
+
+main table h2 {
+    color: #0C4A60;
+    display: inline;
+    position: absolute;
+}
+
+main table p,
+.text {
+    color: #0C4A60;
+    width: 20%;
+    padding: 0;
+    margin: 12% 0 0 25%;
+}
+
+.text {
+    margin-top: 35%;
+}
+
+footer {
+    background-color: #0C4A60;
+    margin-top: 60%;
+    height: 25%;
+    width: 100%;
+    position: absolute;
+}
+
+footer p {
+    color: #E1DDDB;
+    font-size: 1.5em;
+    padding: 5%;
+}
+
+form {
+    position: absolute;
+    top: 0;
+    padding: 5% 0 0 20%;
+    width: 50%;
+}
+
+.labela {
+    height: 2em;
+    background-color: #0C4A60;
+    color: #E1DDDB;
+    border: none;
+}
+
+.dugme {
+    background-color: #0C4A60;
+    color: #E1DDDB;
+    font-size: 1.5em;
+    top: 0;
+    margin: 10% 0 0 2%;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+}
+
+hr {
+    background-color: #E1DDDB;
+    height: 0.2em;
+    width: 60%;
+    left: 0;
+}
+
+footer ul {
+    top: 0;
+    right: 0;
+    color: #E1DDDB;
+    position: absolute;
+    width: 30%;
+    padding-top: 5%;
+}
+
+footer li img {
+    width: 5%;
+    display: inline;
+    cursor: pointer;
+}
+
+footer a,
+footer li {
+    cursor: pointer;
+    display: inline;
+    width: 100%;
+}
+
+footer li p {
+    display: inline;
+    cursor: default;
+}
+
+footer :nth-child(4) {
+    color: #E1DDDB;
+    font-size: 1em;
+    text-align: center;
+    padding: 0;
+    width: 30%;
+    margin: auto;
+}
+
+@media (orientation:portrait) {
+
+    header h1,
+    main h1,
+    main h3 {
+        font-size: 1em;
+    }
+
+    .sign {
+        margin: 5% 70%;
+    }
+
+    nav li,
+    h2,
+    .sign li,
+    main p,
+    main button,
+    .labela,
+    .dugme {
+        font-size: 0.6em;
+    }
+
+    main p,
+    main button {
+        top: 3%;
+    }
+
+    main :nth-child(6) {
+        padding-top: 62%;
+    }
+
+    main table td {
+        height: 7em;
+    }
+
+    .text {
+        margin-top: 45%;
+    }
+
+    main table p,
+    .text {
+        font-size: 0.4em;
+    }
+
+    footer {
+        margin-top: 90%;
+        height: 15%;
+    }
+
+    footer p,
+    main :nth-child(6) {
+        font-size: 0.8em;
+    }
+
+    footer :nth-child(4) {
+        font-size: 0.3em;
+        padding-top: 7%;
+        width: 100%;
+    }
+
+    form {
+        padding: 4% 0 0 32%;
+    }
+
+    .labela {
+        height: 0.6em;
+    }
+
+    hr {
+        height: 0.1em;
+        width: 150%;
+    }
+
+    .dugme {
+        margin-left: 60%;
+        padding-top: 1%;
+    }
+}
+
+@media (orientation:landscape) and (max-width: 1000px) {
+
+    header h1,
+    main h1,
+    main h3 {
+        font-size: 1.5em;
+    }
+
+    .sign {
+        margin: 5% 80%;
+    }
+
+    nav li,
+    h2,
+    .sign li,
+    main p,
+    main button,
+    .labela,
+    .dugme {
+        font-size: 0.8em;
+    }
+
+    main p,
+    main button {
+        top: 3%;
+    }
+
+    main :nth-child(6) {
+        padding-top: 62%;
+    }
+
+    main table td {
+        height: 13em;
+    }
+
+    .text {
+        margin-top: 46%;
+    }
+
+    main table p,
+    .text,
+    footer :nth-child(4) {
+        font-size: 0.6em;
+    }
+
+    footer {
+        margin-top: 80%;
+        height: 33%;
+    }
+
+    footer p,
+    main :nth-child(6) {
+        font-size: 1em;
+    }
+
+    footer :nth-child(4) {
+        padding-top: 2%;
+        width: 100%;
+    }
+
+    form {
+        padding: 4.5% 0 0 27%;
+    }
+
+    .labela {
+        height: 0.8em;
+    }
+
+    hr {
+        height: 0.1em;
+        width: 100%;
+    }
+
+    .dugme {
+        margin-left: 55%;
+    }
+}
